@@ -1,0 +1,179 @@
+{
+  "identity": {
+    "name": "Muhammad Jawad",
+    "shortRole": "Software Engineer · ServiceNow · Cybersecurity",
+    "headline": "Software Engineer. ServiceNow Developer. MSc Cyber Security with Distinction.",
+    "intro": "I build dependable software and enterprise workflows with a security-aware engineering mindset.",
+    "location": "Glasgow, Scotland, UK",
+    "availability": "Open to UK graduate and early-career technology opportunities."
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/mjawad-se",
+    "github": "https://github.com/mjawadse",
+    "email": "mjawad.se@gmail.com",
+    "cv": "https://muhammad-jawad-portfolio.mjse.workers.dev/Muhammad-Jawad-CV.pdf"
+  },
+  "stats": [
+    { "value": "4 roles", "label": "Across software and ServiceNow" },
+    { "value": "Distinction", "label": "MSc Cyber Security" },
+    { "value": "Glasgow", "label": "Based in Scotland" }
+  ],
+  "about": {
+    "eyebrow": "A connected technology career",
+    "headline": "I understand how systems are built — and how they should be secured.",
+    "body": "I began with software and web development, building a practical foundation in programming, front-end engineering, APIs and application logic. I then moved into ServiceNow, working with enterprise workflows, scripting, automation and integrations. My MSc in Cybersecurity added defensive-security, threat-analysis and secure-systems depth to that engineering foundation.",
+    "takeaway": "New to professional cybersecurity roles. Not new to technology."
+  },
+  "expertise": [
+    {
+      "number": "01",
+      "kicker": "Build",
+      "title": "Software engineering",
+      "description": "Responsive products and practical full-stack systems built around clear user journeys, maintainable APIs and reliable data flows.",
+      "skills": ["React", "JavaScript", "Node.js", "Express", "MongoDB", "Python", "REST APIs"]
+    },
+    {
+      "number": "02",
+      "kicker": "Automate",
+      "title": "ServiceNow engineering",
+      "description": "Enterprise platform work spanning ITSM workflows, client and server scripting, Flow Designer, integrations and controlled delivery.",
+      "skills": ["ITSM", "Business Rules", "Client Scripts", "Flow Designer", "REST/SOAP", "Update Sets"]
+    },
+    {
+      "number": "03",
+      "kicker": "Defend",
+      "title": "Cybersecurity",
+      "description": "MSc-level security education supported by phishing-detection research, malware analysis, Linux forensics and active blue-team learning.",
+      "skills": ["Phishing Analysis", "Linux", "Networking", "REMnux", "Ghidra", "Autopsy", "SOC Fundamentals"]
+    }
+  ],
+  "experience": [
+    {
+      "period": "Nov 2023 — Jan 2025",
+      "company": "RT Tech · USA-based, Remote",
+      "role": "ServiceNow Developer / Consultant",
+      "summary": "Enterprise ServiceNow development, platform configuration, automation and integration work in a remote delivery environment.",
+      "points": [
+        "Configured and developed ITSM workflows using client-side and server-side JavaScript.",
+        "Worked with Business Rules, Client Scripts, Script Includes, UI Policies and Flow Designer.",
+        "Supported integrations, update-set delivery, reporting and platform administration."
+      ],
+      "tags": ["ServiceNow", "JavaScript", "ITSM", "Flow Designer", "Integrations"]
+    },
+    {
+      "period": "Jun 2023 — Dec 2023",
+      "company": "TradesTeam UK · Greater London, Remote",
+      "role": "Reactjs Frontend Developer (MERN Stack)",
+      "summary": "Full-time development of responsive web applications using modern front-end and full-stack technologies.",
+      "points": [
+        "Developed responsive React interfaces for web applications.",
+        "Built and integrated REST APIs and supporting backend functionality.",
+        "Worked with Progressive Web Application and Node.js technologies in a remote team."
+      ],
+      "tags": ["React", "MERN Stack", "Node.js", "REST APIs", "PWA"]
+    },
+    {
+      "period": "Feb 2023 — May 2023",
+      "company": "PureLogics · Lahore, On-site",
+      "role": "Trainee MERN Stack Developer",
+      "summary": "Full-time, structured MERN Stack developer training with practical work across front-end and backend technologies.",
+      "points": [
+        "Completed practical training in React, Node.js, Express and MongoDB.",
+        "Built responsive interfaces and worked with full-stack application flows.",
+        "Completed the associated MERN Stack training certificate."
+      ],
+      "tags": ["MERN Stack", "React", "Node.js", "Express", "MongoDB"]
+    },
+    {
+      "period": "Nov 2021 — Apr 2022",
+      "company": "Power Information Technology Company · Lahore, On-site",
+      "role": "Reactjs Frontend Web Developer",
+      "summary": "Six-month front-end development internship with the Ministry of Energy, Power Division, Government of Pakistan company.",
+      "points": [
+        "Supported React-based front-end web development activities.",
+        "Worked within an on-site development environment in Lahore."
+      ],
+      "tags": ["Internship", "React", "JavaScript", "Frontend Development"]
+    }
+  ],
+  "projects": [
+    {
+      "number": "01",
+      "type": "MSc flagship project",
+      "title": "PhishGuard",
+      "subtitle": "Phishing Website Detection Using NLP & Browser Extension",
+      "description": "A real-time browser workflow that combines URL structure, page content and domain or security signals to identify potentially malicious websites.",
+      "points": [
+        "Designed URL and content feature pipelines using NLP and TF-IDF approaches.",
+        "Explored Random Forest, XGBoost, LSTM and BERT approaches where supported by the research implementation.",
+        "Connected the Python and Flask detection layer to a practical browser extension flow."
+      ],
+      "tags": ["Python", "Flask", "NLP", "Machine Learning", "Browser Extension"],
+      "tone": "ink"
+    },
+    {
+      "number": "02",
+      "type": "Full-stack application",
+      "title": "Kitchen Connect",
+      "subtitle": "Multi-role food-service platform",
+      "description": "A full-stack application connecting customers, branches, chefs and administrators through separate role-based dashboards.",
+      "points": [
+        "Built React interfaces and Node or Express APIs backed by MongoDB.",
+        "Implemented OTP authentication and role-aware application flows."
+      ],
+      "tags": ["React", "Node.js", "Express", "MongoDB", "OTP"],
+      "tone": "cream"
+    },
+    {
+      "number": "03",
+      "type": "Professional capability case study",
+      "title": "ServiceNow Workflow Engineering",
+      "subtitle": "Enterprise automation without exposing client material",
+      "description": "A non-confidential view of translating service-management requirements into maintainable workflows, scripts, integrations and controlled deployments.",
+      "points": [
+        "Configured ITSM processes and scripted client or server platform behaviours.",
+        "Supported workflow automation, integrations and update-set delivery practices."
+      ],
+      "tags": ["ServiceNow", "ITSM", "JavaScript", "Flow Designer", "REST/SOAP"],
+      "tone": "cream"
+    },
+    {
+      "number": "04",
+      "type": "Academic practical work",
+      "title": "Malware Analysis & Linux Forensics",
+      "subtitle": "Evidence-led investigation exercises",
+      "description": "Structured practical work covering suspicious executable analysis and forensic examination of a Linux-based evidence image.",
+      "points": [
+        "Used REMnux and Ghidra for static and dynamic analysis activities.",
+        "Used loop devices and Autopsy for repeatable forensic examination."
+      ],
+      "tags": ["REMnux", "Ghidra", "Autopsy", "Linux", "Digital Forensics"],
+      "tone": "ink"
+    }
+  ],
+  "education": [
+    {
+      "period": "Jan 2025 — Jun 2026",
+      "qualification": "MSc Cyber Security (Distinction)",
+      "institution": "University of the West of Scotland",
+      "detail": "Grade: Distinction, 3.03 / 4.00. Completed postgraduate specialisation in cyber security with an applied Phishing Website Detection Using NLP and Browser Extension final project."
+    },
+    {
+      "period": "2019 — 2023",
+      "qualification": "BSc Software Engineering",
+      "institution": "Superior University, Pakistan",
+      "detail": "Software engineering foundation covering programming, systems and application development. GPA: 3.32 / 4.0."
+    }
+  ],
+  "credentials": [
+    { "name": "TryHackMe Pre-Security", "status": "Completed" },
+    { "name": "ServiceNow CSA Preparation", "status": "In Progress" },
+    { "name": "TryHackMe SOC Level 1 Path", "status": "In Progress" },
+    { "name": "CompTIA Security+ Preparation", "status": "In Progress" }
+  ],
+  "contact": {
+    "eyebrow": "Let’s build something useful",
+    "headline": "Have a role or technology problem that needs a clear, secure solution?",
+    "body": "I am open to software engineering, ServiceNow and cybersecurity opportunities across the UK."
+  }
+}

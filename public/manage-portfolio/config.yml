@@ -1,0 +1,104 @@
+backend:
+  name: git-gateway
+  branch: main
+
+publish_mode: editorial_workflow
+media_folder: public/assets/uploads
+public_folder: /assets/uploads
+
+collections:
+  - name: portfolio
+    label: Portfolio Content
+    files:
+      - name: site
+        label: Main Portfolio
+        file: src/content/site.json
+        format: json
+        fields:
+          - label: Identity
+            name: identity
+            widget: object
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Short Role, name: shortRole, widget: string }
+              - { label: Main Headline, name: headline, widget: string }
+              - { label: Introduction, name: intro, widget: text }
+              - { label: Location, name: location, widget: string }
+              - { label: Availability, name: availability, widget: text }
+          - label: Links
+            name: links
+            widget: object
+            fields:
+              - { label: LinkedIn URL, name: linkedin, widget: string }
+              - { label: GitHub URL, name: github, widget: string }
+              - { label: Email, name: email, widget: string }
+              - { label: CV URL, name: cv, widget: string }
+          - label: Hero Statistics
+            name: stats
+            widget: list
+            fields:
+              - { label: Value, name: value, widget: string }
+              - { label: Label, name: label, widget: string }
+          - label: About
+            name: about
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Headline, name: headline, widget: string }
+              - { label: Body, name: body, widget: text }
+              - { label: Takeaway, name: takeaway, widget: string }
+          - label: Expertise
+            name: expertise
+            widget: list
+            fields:
+              - { label: Number, name: number, widget: string }
+              - { label: Kicker, name: kicker, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Skills, name: skills, widget: list }
+          - label: Experience
+            name: experience
+            widget: list
+            fields:
+              - { label: Period, name: period, widget: string }
+              - { label: Company, name: company, widget: string }
+              - { label: Role, name: role, widget: string }
+              - { label: Summary, name: summary, widget: text }
+              - { label: Highlights, name: points, widget: list }
+              - { label: Tags, name: tags, widget: list }
+          - label: Projects
+            name: projects
+            widget: list
+            fields:
+              - { label: Number, name: number, widget: string }
+              - { label: Type, name: type, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Highlights, name: points, widget: list }
+              - { label: Tags, name: tags, widget: list }
+              - label: Visual Tone
+                name: tone
+                widget: select
+                options: [ink, cream]
+          - label: Education
+            name: education
+            widget: list
+            fields:
+              - { label: Period, name: period, widget: string }
+              - { label: Qualification, name: qualification, widget: string }
+              - { label: Institution, name: institution, widget: string }
+              - { label: Detail, name: detail, widget: text }
+          - label: Credentials
+            name: credentials
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Status, name: status, widget: string }
+          - label: Contact
+            name: contact
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Headline, name: headline, widget: string }
+              - { label: Body, name: body, widget: text }

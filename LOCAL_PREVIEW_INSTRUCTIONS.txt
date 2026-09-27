@@ -1,0 +1,10 @@
+MUHAMMAD JAWAD REACT PORTFOLIO - LOCAL PREVIEW
+
+1. Extract the complete ZIP file.
+2. Double-click OPEN_LOCAL_PREVIEW.bat.
+3. The production React portfolio opens in your browser.
+
+Alternative: open the dist folder and double-click index.html.
+
+The contact form and content-manager login become active after Netlify setup.
+
