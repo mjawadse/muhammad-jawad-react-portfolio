@@ -12,7 +12,7 @@
     "github": "https://github.com/mjawadse",
     "email": "mjawad.se@gmail.com",
     // "cv": "https://muhammad-jawad-portfolio.mjse.workers.dev/Muhammad-Jawad-CV.pdf"
-    "cv": "/Muhammad-Jawad-CV.pdf"
+    "cv": "/public/Muhammad-Jawad-CV.pdf"
   },
   "stats": [
     { "value": "4 roles", "label": "Across software and ServiceNow" },
