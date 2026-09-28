@@ -7,10 +7,13 @@ export default function OrbitVisual() {
       <div className="orbit orbit-one"><i /><i /></div>
       <div className="orbit orbit-two"><i /><i /></div>
       <div className="orbit orbit-three"><i /></div>
-      <div className="orbit-core">
+      {/* <div className="orbit-core">
         <span>MJ</span>
         <small>CAREER OS</small>
-      </div>
+      </div> */}
+      <div className="orbit-core profile-core">
+  <img src="/public/profile-photo.jfif" alt="Muhammad Jawad" />
+</div>
       <div className="signal signal-one"><i />SOFTWARE</div>
       <div className="signal signal-two"><i />SERVICENOW</div>
       <div className="signal signal-three"><i />SECURITY</div>
