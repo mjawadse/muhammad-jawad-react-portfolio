@@ -12,7 +12,7 @@ export default function OrbitVisual() {
         <small>CAREER OS</small>
       </div> */}
       <div className="orbit-core profile-core">
-  <img src="/public/profile-photo.jfif" alt="Muhammad Jawad" />
+  <img src="/profile-photo.jfif" alt="Muhammad Jawad" />
 </div>
       <div className="signal signal-one"><i />SOFTWARE</div>
       <div className="signal signal-two"><i />SERVICENOW</div>
